@@ -10,6 +10,7 @@ export default defineConfig({
       '@vue/compiler-core': '@vue/compiler-core/dist/compiler-core.cjs.js',
     },
   },
+  base: './',
   build: {
     commonjsOptions: {
       ignore: ['typescript'],
