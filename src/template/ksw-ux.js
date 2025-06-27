@@ -14,7 +14,7 @@ export function setupElementPlus() {
 export function loadStyle() {
   const link = document.createElement('link')
   link.rel = 'stylesheet'
-  link.href = '/node_modules/@ksware/ksw-ux/kingsware-ui/style.css'
+  link.href = '../../releases/style.css'
   // link.addEventListener('load', resolve)
   // link.addEventListener('error', reject)
   document.body.append(link)
