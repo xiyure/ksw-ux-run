@@ -116,6 +116,6 @@
     "vue-tsc": "~2.2.2"
   },
   "dependencies": {
-    "@ksware/ksw-ux": "^1.2.2-beta10"
+    "@ksware/ksw-ux": "file:release/ksw-ux.tgz"
   }
 }
