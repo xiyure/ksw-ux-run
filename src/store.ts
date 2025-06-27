@@ -237,7 +237,8 @@ export function useStore(
       const importMap = JSON.parse(files.value[importMapFile].code)
       importMap.imports = {
         ...importMap.imports,
-        '@ksware/ksw-ux': '../releases/index.full.min.mjs',
+        '@ksware/ksw-ux':
+          'https://github.com/xiyure/ksw-ux-run/blob/main/releases/index.full.min.mjs',
       }
       return importMap
     } catch (e) {

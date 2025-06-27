@@ -14,7 +14,8 @@ export function setupElementPlus() {
 export function loadStyle() {
   const link = document.createElement('link')
   link.rel = 'stylesheet'
-  link.href = '../../releases/style.css'
+  link.href =
+    'https://github.com/xiyure/ksw-ux-run/blob/main/releases/style.css'
   // link.addEventListener('load', resolve)
   // link.addEventListener('error', reject)
   document.body.append(link)
