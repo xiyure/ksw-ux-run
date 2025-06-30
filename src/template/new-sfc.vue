@@ -1,6 +1,6 @@
 <script setup>
-import { setupElementPlus } from './ksw-ux'
-setupElementPlus()
+import { loadDependency } from './ksw-ux'
+loadDependency()
 </script>
 
 <template>

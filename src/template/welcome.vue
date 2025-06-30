@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from 'vue'
-import { setupElementPlus } from './ksw-ux'
-setupElementPlus()
+import { loadDependency } from './ksw-ux'
+loadDependency()
 
 const msg = ref('Hello World!')
 </script>

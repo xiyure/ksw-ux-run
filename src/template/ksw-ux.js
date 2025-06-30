@@ -1,10 +1,10 @@
-import KUI from '@ksware/ksw-ux'
 import { getCurrentInstance } from 'vue'
+import KUI from '@ksware/ksw-ux'
 
 let installed = false
-await loadStyle()
+loadStyle()
 
-export function setupElementPlus() {
+export function loadDependency() {
   if (installed) return
   const instance = getCurrentInstance()
   instance.appContext.app.use(KUI)
@@ -15,8 +15,6 @@ export function loadStyle() {
   const link = document.createElement('link')
   link.rel = 'stylesheet'
   link.href =
-    'https://github.com/xiyure/ksw-ux-run/blob/main/releases/style.css'
-  // link.addEventListener('load', resolve)
-  // link.addEventListener('error', reject)
+    'https://cdn.jsdelivr.net/gh/xiyure/ksw-ux-run@main/releases/style.css'
   document.body.append(link)
 }

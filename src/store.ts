@@ -238,7 +238,7 @@ export function useStore(
       importMap.imports = {
         ...importMap.imports,
         '@ksware/ksw-ux':
-          'https://github.com/xiyure/ksw-ux-run/blob/main/releases/index.full.min.mjs',
+          'https://cdn.jsdelivr.net/gh/xiyure/ksw-ux-run@main/releases/index.full.min.mjs',
       }
       return importMap
     } catch (e) {
